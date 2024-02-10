@@ -6,20 +6,20 @@ const Faq = () => {
     const questions = [
         {
             id: 1,
-            question: "1orem ipsum dolor sit amet consectetur ",
-            ans: "1Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet dignissimos quasi error adipisci fuga repudiandae sunt saepe quia sequi porro."
+          question: "How many bones does a cat have?",
+          ans: "A cat has 230 bones - 6 more than a human",
         },
         {
             id: 2,
-            question: "2orem ipsum dolor sit amet consectetur ",
-            ans: "2Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet dignissimos quasi error adipisci fuga repudiandae sunt saepe quia sequi porro."
+          question: "How much do cats sleep?",
+          ans: "The average cat sleeps 12-16 hours per day",
         },
         {
             id: 3,
-            question: "3orem ipsum dolor sit amet consectetur ",
-            ans: "3Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet dignissimos quasi error adipisci fuga repudiandae sunt saepe quia sequi porro."
-        }
-    ];
+          question: "How long do cats live",
+          ans: "Outdoor cats live 5 years on average. Indoor\ncats live 15 years on average.",
+        },
+      ]
 
     const handleToggle = (questionId) => {
         setActiveQuestion(activeQuestion === questionId ? null : questionId);
