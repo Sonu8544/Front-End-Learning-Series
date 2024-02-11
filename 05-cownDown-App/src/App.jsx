@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <Timer duration={1 * 12 * 60 * 60 * 1000} />
+      <Timer duration={2 * 21 * 60 * 60 * 1000} />
     </>
   );
 }
