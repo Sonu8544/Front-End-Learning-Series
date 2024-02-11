@@ -4,10 +4,50 @@
   box-sizing: border-box;
 }
 
-
 .mainContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+
+}
+
+
+.timerBox {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px 2px black;
+  gap: 1rem;
+  padding: 100px;
+  width: 400px;
+  height: 150px;
+  background: whitesmoke;
+  border-radius: 10px;
+}
+
+.timeBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px 20px !important;
+  box-shadow: 2px 2px 2px 2px black;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-weight: 600 !important;
+
+}
+
+p{
+  font-weight: 600;
+  font-size: 25px;
 }
