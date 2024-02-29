@@ -18,6 +18,11 @@
       .newclassName {
         color: green;
       }
+
+      .againColorChange {
+        color: white;
+        background-color: black;
+      }
     </style>
   </head>
   <body>
@@ -25,11 +30,12 @@
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, vitae.
     </h1>
   </body>
+  <script src="script.js"></script>
   <script>
     const colorChange = document.getElementsByClassName("h1Tag")[0];
 
     setTimeout(() => {
-        console.log("Hello")
+      console.log("Hello");
       colorChange.classList.add("newclassName");
     }, 2000);
   </script>
